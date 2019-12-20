@@ -13,7 +13,7 @@ end #method
 def reduce(array, starting_point=nil)
   new_array = array
   if starting_point
-    new_array.shift(starting_point)
+    new_array.unshift(starting_point)
   end
     
   total = new_array[0]
